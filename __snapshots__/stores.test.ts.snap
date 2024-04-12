@@ -1,0 +1,382 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`scraper biltema.no: biltema.no 1`] = `
+{
+  "product": {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "brand": {
+      "@type": "Brand",
+      "name": "Biltema",
+    },
+    "description": "",
+    "image": [
+      "https://productimages.biltema.com/v1/Image/product/xlarge/2000047873/2",
+    ],
+    "mpn": "270651",
+    "name": "Sykkelbelysning",
+    "offers": {
+      "@type": "Offer",
+      "availability": "",
+      "itemCondition": "http://schema.org/NewCondition",
+      "price": "149",
+      "priceCurrency": "NOK",
+      "priceValidUntil": "2025-04-12",
+      "seller": {
+        "@type": "Organization",
+        "name": "Biltema",
+      },
+      "url": "http://www.biltema.no/sykkel-elsykkel/sykkelutstyr/sykkelbelysning/sykkellykt-foran-300-lm-2000047873",
+    },
+  },
+}
+`;
+
+exports[`scraper ikea.com: ikea.com 1`] = `
+{
+  "breadcrumbList": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "item": "https://www.ikea.com/no/no/cat/produkter-products/",
+        "name": "Produkter",
+        "position": 1,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://www.ikea.com/no/no/cat/kjokkenutstyr-og-borddekking-kt001/",
+        "name": "Kjøkkenutstyr og borddekking",
+        "position": 2,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://www.ikea.com/no/no/cat/kniver-og-skjaerefjoler-15934/",
+        "name": "Kniver og skjærefjøler",
+        "position": 3,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://www.ikea.com/no/no/cat/kniver-15946/",
+        "name": "Kniver",
+        "position": 4,
+      },
+    ],
+  },
+  "product": {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3",
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "IKEA",
+    },
+    "description": "IKEA 365+ Kokkekniv - rustfritt stål 20 cm. Det kraftige bladet gjør det lettere å dele og hakke f.eks. kjøtt og store rotfrukter. Kniven er svært slitesterk, balansert og enkel å rengjøre, siden den er laget av rustfritt stål. Vask produktet før første gangs bruk.",
+    "image": [
+      "https://www.ikea.com/no/no/images/products/ikea-365-kokkekniv-rustfritt-stal__0710374_pe727502_s5.jpg",
+      "https://www.ikea.com/no/no/images/products/ikea-365-kokkekniv-rustfritt-stal__0333873_pe523336_s5.jpg",
+      "https://www.ikea.com/no/no/images/products/ikea-365-kokkekniv-rustfritt-stal__0378900_ph124581_s5.jpg",
+      "https://www.ikea.com/no/no/images/products/ikea-365-kokkekniv-rustfritt-stal__0333874_pe523337_s5.jpg",
+      "https://www.ikea.com/no/no/images/products/ikea-365-kokkekniv-rustfritt-stal__0333875_pe523338_s5.jpg",
+      "https://www.ikea.com/no/no/images/products/ikea-365-kokkekniv-rustfritt-stal__0378905_ph124567_s5.jpg",
+    ],
+    "mpn": "102.835.22",
+    "name": "IKEA 365+ Kokkekniv - rustfritt stål 20 cm",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "299",
+      "priceCurrency": "NOK",
+      "seller": {
+        "@type": "Organization",
+        "name": "IKEA",
+      },
+      "url": "https://www.ikea.com/no/no/p/ikea-365-kokkekniv-rustfritt-stal-10283522/",
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Lucija",
+        },
+        "name": "Bra.",
+        "reviewBody": "Bra.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+        },
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Sunita",
+        },
+        "name": "God og skarp",
+        "reviewBody": "En god og skarp kniv.",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+        },
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Camilla",
+        },
+        "name": "👍👍👍",
+        "reviewBody": "👍👍👍",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": 5,
+        },
+      },
+    ],
+    "sku": "102.835.22",
+    "url": "https://www.ikea.com/no/no/p/ikea-365-kokkekniv-rustfritt-stal-10283522/",
+  },
+}
+`;
+
+exports[`scraper jysk.no: jysk.no 1`] = `
+{
+  "product": {
+    "@context": "https://schema.org/",
+    "@id": "/stue/lenestoler/lenestol-udsbjerg-gratt-stoff/eik",
+    "@type": "Product",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "bestRating": 5,
+      "ratingValue": "4.7",
+      "reviewCount": 671,
+      "worstRating": 1,
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "JYSK Internal",
+    },
+    "description": null,
+    "image": [
+      "https://cdn4.jysk.com/getimage/wd2.medium/86075",
+      "https://cdn4.jysk.com/getimage/wd2.medium/87514",
+      "https://cdn4.jysk.com/getimage/wd2.medium/95766",
+      "https://cdn4.jysk.com/getimage/wd2.medium/99714",
+      "https://cdn4.jysk.com/getimage/wd2.medium/99715",
+      "https://cdn4.jysk.com/getimage/wd2.medium/111785",
+      "https://cdn4.jysk.com/getimage/wd2.medium/115042",
+      "https://cdn4.jysk.com/getimage/wd2.medium/115230",
+      "https://cdn4.jysk.com/getimage/wd2.medium/128750",
+      "https://cdn4.jysk.com/getimage/wd2.medium/128752",
+      "https://cdn4.jysk.com/getimage/wd2.medium/188020",
+      "https://cdn4.jysk.com/getimage/wd2.medium/214527",
+      "https://cdn4.jysk.com/getimage/wd2.medium/214528",
+      "https://cdn4.jysk.com/getimage/wd2.medium/216435",
+      "https://cdn4.jysk.com/getimage/wd2.medium/216436",
+      "https://cdn4.jysk.com/getimage/wd2.medium/87384",
+      "https://cdn4.jysk.com/getimage/wd2.medium/86076",
+      "https://cdn4.jysk.com/getimage/wd2.medium/86077",
+      "https://cdn4.jysk.com/getimage/wd2.medium/87379",
+      "https://cdn4.jysk.com/getimage/wd2.medium/87520",
+      "https://cdn4.jysk.com/getimage/wd2.medium/115163",
+    ],
+    "name": "Lenestol UDSBJERG grått stoff/eik",
+    "offers": {
+      "@type": "Offer",
+      "price": "800",
+      "priceCurrency": "NOK",
+      "priceValidUntil": "2024-04-14T23:59:00",
+      "url": "/stue/lenestoler/lenestol-udsbjerg-gratt-stoff/eik",
+    },
+    "sku": "3690351",
+  },
+}
+`;
+
+exports[`scraper clasohlson.com: clasohlson.com 1`] = `
+{
+  "product": {
+    "@context": "http://schema.org",
+    "@type": "Product",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "5",
+    },
+    "description": " Bruk som benk eller fold ut til et bord med 2 stoler.  Benk og kafésett i ett – perfekt på små balkonger eller altaner.  Fleksibelt balkongmøbel som raskt kan tilpasses etter behov. Produktet er merket med FSC®-merket for bærekraftig skogbruk. Bordets bredde: 65 cm. Bordets dybde: 47 cm. Stolens høyde: 45 cm.",
+    "image": "/medias/sys_master/h37/h8e/68369001021470.png",
+    "name": "Benk og kafésett i ett, FSC",
+    "offers": {
+      "@type": "Offer",
+      "availability": "http://schema.org/inStock",
+      "price": "1 599,00",
+      "priceCurrency": "NOK",
+    },
+  },
+}
+`;
+
+exports[`scraper oda.com: oda.com 1`] = `
+{
+  "breadcrumbList": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "item": "https://oda.com/no/",
+        "name": "Hjem",
+        "position": 1,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://oda.com/no/products/",
+        "name": "Alle produkter",
+        "position": 2,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://oda.com/no/categories/32-middager-og-tilbehor/",
+        "name": "Middager og tilbehør",
+        "position": 3,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://oda.com/no/categories/32-middager-og-tilbehor/448-asiatisk/",
+        "name": "Asiatisk",
+        "position": 4,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://oda.com/no/categories/32-middager-og-tilbehor/448-asiatisk/450-wok/",
+        "name": "Wok",
+        "position": 5,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://oda.com/no/products/29321-blue-dragon-panko-breadcrumbs/",
+        "name": "Panko Breadcrumbs",
+        "position": 6,
+      },
+    ],
+  },
+  "product": {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "brand": "Blue Dragon",
+    "image": [
+      "https://bilder.kolonial.no/local_products/76068df9-8718-4081-8728-baed3f122f0e.jpeg?auto=format&amp;fit=max&amp;w=280&amp;s=5d4fc17922b12abb89919b18439d614b",
+    ],
+    "name": "Panko Breadcrumbs",
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "73.00",
+      "priceCurrency": "NOK",
+      "url": "https://oda.com/no/products/29321-blue-dragon-panko-breadcrumbs/",
+    },
+  },
+}
+`;
+
+exports[`scraper www.jula.no: www.jula.no 1`] = `
+{
+  "breadcrumbList": {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "item": "https://www.jula.no/catalog/bil-og-garasje/",
+        "name": "Bil og garasje",
+        "position": 1,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://www.jula.no/catalog/bil-og-garasje/bilpleie/",
+        "name": "Bilpleie",
+        "position": 2,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://www.jula.no/catalog/bil-og-garasje/bilpleie/hoytrykkspylere/",
+        "name": "Høytrykkspylere",
+        "position": 3,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://www.jula.no/catalog/bil-og-garasje/bilpleie/hoytrykkspylere/elektrisk-hoytrykkspylere/",
+        "name": "Elektrisk høytrykkspylere",
+        "position": 4,
+      },
+      {
+        "@type": "ListItem",
+        "item": "https://www.jula.no/catalog/bil-og-garasje/bilpleie/hoytrykkspylere/elektrisk-hoytrykkspylere/terrassevasker-007507/",
+        "name": "Terrassevasker T-Cleaner PCL4",
+        "position": 5,
+      },
+    ],
+  },
+  "product": {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.5,
+      "reviewCount": 161,
+    },
+    "brand": {
+      "@type": "Brand",
+      "logo": "https://assets.cdn.jula.com/Dmm3BWSV3/assetstream.aspx?assetId=78237&mediaformatid=50138&destinationid=10016&lastmodified=20240206150651",
+      "name": "Kärcher",
+    },
+    "description": "Rengjør ved hjelp av roterende børster og en integrert skyllefunksjon. Børstene drives med en elektrisk motor som gjør omtrent 700 omdreininger i minuttet. Skyllefunksjonens vannmengde reguleres på håndtaket, og flyten kan komme opp i maksimalt 180 l/t. Kobles til hageslange.",
+    "image": "https://assets.cdn.jula.com/Dmm3BWSV3/assetstream.aspx?assetId=8714&mediaformatid=50137&destinationid=10016&lastmodified=19790101000000",
+    "name": "Terrassevasker T-Cleaner PCL4",
+    "offers": {
+      "@type": "Offer",
+      "price": 1999,
+      "priceCurrency": "NOK",
+      "priceValidUntil": "2024-04-18T21:59:59+00:00",
+    },
+    "productId": "01017296",
+    "sku": "007507",
+    "url": "https://www.jula.no/catalog/bil-og-garasje/bilpleie/hoytrykkspylere/elektrisk-hoytrykkspylere/terrassevasker-007507/",
+  },
+}
+`;
+
+exports[`scraper www.netthandelen.no: www.netthandelen.no 1`] = `
+{
+  "product": {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingCount": "25",
+      "ratingValue": "4,88",
+    },
+    "description": "Hagegruppe modell Boston   Flott hagegruppe med hjørnesofa og bord. Sofadelene kan også stå hver for seg og fungere som to tresetere. Det medfølger festeklips for å sette sofaene sammen.",
+    "image": "https://cdn.netthandelen.no/Media/Product/Image/300/e86bc522-9303-4e32-aa1c-c11d7b1d30af_8.jpg",
+    "name": "Sofagruppe modell Boston",
+    "offers": {
+      "@type": "Offer",
+      "availability": "InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "price": "9990.00",
+      "priceCurrency": "NOK",
+      "priceValidUntil": "2025-04-12T20:18:43.3636283+02:00",
+      "url": "https://www.netthandelen.no/product/3117344/sofagruppe-modell-boston",
+    },
+    "sku": "3117344",
+  },
+}
+`;

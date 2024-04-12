@@ -1,0 +1,27 @@
+{
+  "name": "crawler",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/whatwg-mimetype": "^3.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@medusajs/medusa-js": "^6.1.8",
+    "cheerio": "^1.0.0-rc.12",
+    "content-type-parser": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.4.1",
+    "fast-xml-parser": "^4.3.6",
+    "graphile-worker": "^0.16.5",
+    "header-generator": "^2.1.50",
+    "limiter": "^2.1.0",
+    "minimatch": "^9.0.4",
+    "robots-parser": "^3.0.1",
+    "schema-dts": "^1.1.2",
+    "whatwg-mimetype": "^4.0.0"
+  }
+}
