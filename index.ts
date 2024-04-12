@@ -7,7 +7,7 @@ import { stores } from "./stores.js";
 dotenv.config();
 
 const server = Bun.serve({
-  port: 3000,
+  port: process.env.PORT ? Number.parseInt(process.env.PORT) : 3000,
   fetch(request) {
     console.log(request.method, request.url);
     return new Response("Welcome to Bun!");
